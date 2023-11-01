@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import joblib as jl
 
 # Cargar el modelo RandomForestClassifier desde el archivo pkl
-model = joblib.load('my_model.pkl')
+model = jl.load('my_model.pkl')
 
 # Titulo de la aplicación
 st.title("CREDIT APPROVAL")
